@@ -13,7 +13,7 @@ class Land_Prediction(BaseModel):
 
 app = FastAPI()
 
-with open("/Users/rag9704/Downloads/price_predicition_0_1.joblib", "rb") as f:
+with open("price_predicition_0_1.joblib", "rb") as f:
     model = load(f)
 
 
