@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "http://0.0.0.0:8080/prediction"
+url = "http://localhost:8080/prediction"
 
 payload = json.dumps({
 
