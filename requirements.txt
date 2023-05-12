@@ -1,0 +1,7 @@
+requests
+json
+uvicorn
+joblib
+fastapi
+osmnx
+pydantic
